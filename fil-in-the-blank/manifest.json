@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "version": "1.0",
+  "name": "Fill in the blank",
+  "description": "A plugin to fill in the missing word on the form!",
+  "tags": [
+    "language",
+    "blank"
+  ],
+  "icon": "./dist/icon.png",
+
+  "settings" : {
+    "answerRequired": true
+  },
+
+  "entry": {
+    "state": "./dist/state.json",
+    "handler": "./dist/handler.js",
+    "edit": "./dist/edit.html",
+    "view": "./dist/view.html"
+  }
+}
