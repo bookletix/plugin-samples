@@ -1,4 +1,4 @@
-# Webpack-preact with antd plugin
+# Webpack-preact
 
 ## Publish Setting
 create .env file
