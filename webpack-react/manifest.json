@@ -1,0 +1,24 @@
+{
+  "status": "active",
+  "version": "1.0",
+  "name": "Webpack react",
+  "description": "Dead simple webpack-react sample bookletix.com plugin",
+  "tags": [
+    "webpack",
+    "sample",
+    "food"
+  ],
+
+  "icon": "./dist/icon.png",
+
+  "settings" : {
+    "answerRequired": false
+  },
+
+  "entry": {
+    "state": "./dist/state.json",
+    "handler": "./dist/handler.js",
+    "edit": "./dist/edit.html",
+    "view": "./dist/view.html"
+  }
+}
