@@ -1,9 +1,2 @@
-# Webpack-preact with antd plugin
+# Fill in the blank
 
-## Publish Setting
-create .env file
-Example:
-```azure
-EMAIL: "..."
-PASSWORD: "..."
-```
