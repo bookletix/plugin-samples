@@ -15,10 +15,6 @@ export function debounce(func, wait, immediate) {
     };
 }
 
-String.prototype.replaceJSX = (find, replace) => {
-    return this.split(find).flatMap((item) => [item, replace]);
-}
-
 export const isNullOrUndefined = value => {
     return value === null || value === undefined
 }

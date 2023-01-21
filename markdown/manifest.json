@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "version": "1.0",
+  "name": "Markdown",
+  "description": "Markdown is a plugin that allows you to create markdown-based text for easier and more convenient text formatting.",
+  "tags": [
+    "wysiwyg",
+    "formatting"
+  ],
+  "icon": "./dist/icon.jpeg",
+
+  "settings" : {
+    "answerRequired": false
+  },
+
+  "entry": {
+    "state": "./dist/state.json",
+    "handler": "./dist/handler.js",
+    "edit": "./dist/edit.html",
+    "view": "./dist/view.html"
+  }
+}
