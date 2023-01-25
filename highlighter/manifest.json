@@ -1,0 +1,23 @@
+{
+  "status": "active",
+  "version": "1.0",
+  "name": "Highlighter",
+  "description": "a syntax highlight plugin for bookletix",
+  "tags": [
+    "highlight",
+    "code",
+    "programming"
+  ],
+  "icon": "./dist/icon.png",
+
+  "settings" : {
+    "answerRequired": false
+  },
+
+  "entry": {
+    "state": "./dist/state.json",
+    "handler": "./dist/handler.js",
+    "edit": "./dist/edit.html",
+    "view": "./dist/view.html"
+  }
+}

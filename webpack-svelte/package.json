@@ -1,0 +1,39 @@
+{
+  "name": "webpack-preact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack && bx-cli publish",
+    "build": "webpack",
+    "publish": "bx-cli publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bookletix",
+  "license": "ISC",
+  "dependencies": {
+    "svelte": "^3.55.1",
+    "svelte-loader": "^3.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-import": "^1.13.3",
+    "bx-cli": "^1.0.6",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-inline-script-webpack-plugin": "^3.1.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.65.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  }
+}

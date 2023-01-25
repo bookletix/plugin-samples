@@ -1,10 +1,8 @@
-# Webpack-preact
-
 ### Install
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 ```bash
-npx degit bookletix/plugin-samples/webpack-preact new-plugin
+npx degit bookletix/plugin-samples/webpack-svelte new-plugin
 cd new-plugin
 ```
 
