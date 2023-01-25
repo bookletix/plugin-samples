@@ -1,20 +1,20 @@
 import { h, render, Component} from "preact";
 import Highlight from './highlight'
 
-import 'highlight.js/styles/github.css';
+import 'highlight.js/styles/googlecode.css';
 
 class View extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            value: $_bx.get("code")
+            value: $_bx.get("code"),
         };
     }
 
     render() {
         return (
-            <Highlight language={"go"}>{this.state.value}</Highlight>
+            <Highlight>{this.state.value}</Highlight>
         )
     }
 }
