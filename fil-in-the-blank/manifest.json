@@ -1,5 +1,6 @@
 {
   "status": "active",
+  "isPublic": true,
   "version": "1.0",
   "name": "Fill in the blank",
   "description": "A plugin to fill in the missing word on the form!",
