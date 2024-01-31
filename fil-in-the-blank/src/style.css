@@ -8,7 +8,7 @@ html {
 
 input:checked ~ .dot {
     transform: translateX(100%);
-    background-color: #5e6bdf; }
+    background-color: var(--bx-button-color); }
 
 .tags {
     list-style: none;
@@ -67,7 +67,7 @@ input:checked ~ .dot {
     height: 35px;
     font-size: inherit;
     background: 0 0;
-    color: #5e6bdf;
+    color: var(--bx-button-color);
     outline: 0; }
 
 .max-h-80 {
@@ -137,12 +137,12 @@ input:checked ~ .dot {
     line-height: 0; }
 
 .sel ::-moz-selection {
-    color: #5e6bdf;
+    color: var(--bx-button-color);
     font-weight: bold;
     background: #eee; }
 
 .sel ::selection {
-    color: #5e6bdf;
+    color: var(--bx-button-color);
     font-weight: bold;
     background: #eee; }
 
@@ -170,7 +170,7 @@ input:checked ~ .dot {
     height: 26px;
     content: "";
     display: block;
-    background: #5e6bdf;
+    background: var(--bx-button-color);
     border-radius: 26px;
     transform: translate(2px, 2px);
     position: relative;
@@ -242,10 +242,10 @@ input:checked ~ .dot {
     right: 0;
     top: 0; }
 .tag-view:hover {
-    background-color: #5e6bdf;
+    background-color: var(--bx-button-color);
     color: white; }
 .tag-view:hover::after {
-    border-left-color: #5e6bdf; }
+    border-left-color: var(--bx-button-color); }
 
 .links {
     text-size-adjust: 100%;
@@ -268,23 +268,23 @@ input:checked ~ .dot {
     box-sizing: border-box;
     background-color: transparent;
     cursor: pointer;
-    color: #5e6bdf;
+    color: var(--bx-button-color);
     text-decoration: none;
     padding: 12px 20px;
-    border-radius: 20px;
+    border-radius: 12px;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     margin-right: 20px; }
 .link-item.active {
-    color: #5e6bdf !important;
+    color: var(--bx-button-color) !important;
     background: #eff0fc !important; }
 .link-item:hover {
     box-sizing: border-box;
     cursor: pointer;
     text-decoration: none;
     padding: 12px 20px;
-    border-radius: 20px;
+    border-radius: 12px;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;

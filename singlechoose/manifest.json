@@ -1,0 +1,22 @@
+{
+  "status": "active",
+  "version": "1.0",
+  "name": "Webpack preact sample",
+  "description": "dead simple webpack-peact bookletix plugin",
+  "tags": [
+    "webpack",
+    "preact"
+  ],
+  "icon": "./dist/icon.png",
+
+  "settings" : {
+    "answerRequired": false
+  },
+
+  "entry": {
+    "state": "./dist/state.json",
+    "handler": "./dist/handler.js",
+    "edit": "./dist/edit.html",
+    "view": "./dist/view.html"
+  }
+}

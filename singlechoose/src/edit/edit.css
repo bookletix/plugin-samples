@@ -1,0 +1,54 @@
+.add-option {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.options-block-mr {
+  margin-top: 10px;
+}
+
+.options-block {
+  min-height: 300px;
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.delete-option {
+  background: none;
+  border: none;
+  color: #443232;
+  cursor: pointer;
+}
+
+.option-container {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.option-radio {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.option-text {
+  margin-right: 10px;
+  padding: 5px;
+  box-shadow: none;
+}
+
+.option-explanation {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  box-shadow: none;
+}
+
+.option-input {
+  width: auto;
+  max-width: 400px; /* Adjust maximum width as needed */
+}

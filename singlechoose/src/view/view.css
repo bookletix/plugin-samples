@@ -1,0 +1,30 @@
+.view-container {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.question-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.options-container {
+    margin-top: 10px;
+}
+
+.option-view {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Расстояние между опциями */
+}
+
+.option-radio {
+    margin-right: 10px;
+}
+
+.option-text {
+    cursor: pointer;
+    user-select: none; /* Предотвращает выделение текста при клике */
+}
