@@ -39,6 +39,12 @@ class View extends Component {
     componentDidMount() {
         // sync local state with global component state
         $_bx.event().on("before_submit", (v) => {
+
+            if (this.state.answer === null || this.state.answer === undefined || this.state.answer === "" || this.state.answer < 0) {
+                $_bx.showErrorMessage("Error: Please select an option to continue.");
+                return;
+            }
+
             v.state.answer = this.state.answer;
         });
     }

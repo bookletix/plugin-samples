@@ -1,5 +1,6 @@
 import {Fragment, h, render, Component, createRef} from "preact";
 import {debounce, buildID, clear, stripHtml, isNullOrUndefined} from '../helper';
+import { Button } from 'coobui';
 import "../style.css";
 
 class Edit extends Component {
@@ -225,6 +226,7 @@ class Edit extends Component {
 
         return (
             <Fragment>
+                <Button/>
                 <div className={"links"}>
                     {Array.apply(0, this.state.tabs).map( (name, i) => {
                         return <a className={"link-item" + (this.state.currentTab === i ? " active" : "") } onClick={() => this.setState({currentTab: i})} >{name}</a>

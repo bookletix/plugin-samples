@@ -12,6 +12,7 @@
   "author": "Bookletix",
   "license": "ISC",
   "dependencies": {
+    "coobui": "^1.0.0",
     "lodash-es": "^4.17.21",
     "preact": "^10.6.4",
     "preact-html-converter": "^0.4.2"
